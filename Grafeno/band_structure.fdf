@@ -1,0 +1,24 @@
+# Simple fdf for electronic band structure calculation
+# https://docs.siesta-project.org/
+SystemLabel graphene
+
+#input structure
+%include structure.fdf
+
+#General aspects Calculation (Basis Set and functional)
+PAO.BasisSize DZP
+PAO.EnergyShift     300 meV
+XC.functional     GGA 
+XC.authors        PBE 
+
+%block kgrid_Monkhorst_Pack
+  26  0  0  0.0
+   0 26  0  0.0
+   0  0  1  0.0
+%endblock kgrid_Monkhorst_Pack
+
+# General Output
+SaveHS true   #Save the Hamiltonian
+
+WriteCoorXmol          true         #Save the coordinates in .xyz format 
+                                    
