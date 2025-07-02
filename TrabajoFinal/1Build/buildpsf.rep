@@ -1,0 +1,1154 @@
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 12 CPUs.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 HT 
+Info) Free system memory: 12GB (80%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 3 plugins in directory:
+Info) /opt/vmd/lib/plugins/LINUXAMD64/molfile
+/opt/vmd/lib/scripts/tcl8.5 /opt/vmd/lib/scripts /opt/vmd/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /opt/vmd/lib//scripts/vmd /opt/vmd/lib/plugins/LINUXAMD64/tcl /opt/vmd/lib/plugins/noarch/tcl /opt/vmd_density_profile/
+2.0
+psfgen) reading topology file top_all27_prot_lipid.rtf
+
+psfgen) > CHARMM22 All-Hydrogen Topology File for Proteins and Lipids <<
+psfgen) >>>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>   July 2004    <<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to ADM jr. via the CHARMM web site: www.charmm.org
+psfgen)                parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) cross-term entries present in topology definitions
+psfgen) aliasing residue HIS to HSE
+psfgen) aliasing residue ILE atom CD1 to CD
+psfgen) aliasing residue HOH atom O to OH2
+psfgen) aliasing residue HOH to TIP3
+psfgen) building segment A
+psfgen) reading residues from pdb file segA.pdb
+psfgen) extracted 103 residues from pdb file
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file segA.pdb for segment A
+psfgen) Warning: failed to set coordinate for atom O	 HIS:124	  A
+psfgen) Warning: failed to set coordinate for atom OXT	 HIS:124	  A
+psfgen) applying patch GLUP to 1 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) building segment WCA
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+psfgen) reading residues from pdb file cwA.pdb
+psfgen) extracted 118 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file cwA.pdb for segment WCA
+psfgen) building segment B
+psfgen) reading residues from pdb file segB.pdb
+psfgen) extracted 103 residues from pdb file
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file segB.pdb for segment B
+psfgen) Warning: failed to set coordinate for atom O	 HIS:124	  B
+psfgen) Warning: failed to set coordinate for atom OXT	 HIS:124	  B
+psfgen) applying patch GLUP to 1 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) building segment WCB
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+psfgen) reading residues from pdb file cwB.pdb
+psfgen) extracted 118 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file cwB.pdb for segment WCB
+psfgen) building segment C
+psfgen) reading residues from pdb file segC.pdb
+psfgen) extracted 103 residues from pdb file
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file segC.pdb for segment C
+psfgen) Warning: failed to set coordinate for atom O	 HIS:124	  C
+psfgen) Warning: failed to set coordinate for atom OXT	 HIS:124	  C
+psfgen) applying patch GLUP to 1 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) building segment WCC
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+psfgen) reading residues from pdb file cwC.pdb
+psfgen) extracted 118 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file cwC.pdb for segment WCC
+psfgen) building segment D
+psfgen) reading residues from pdb file segD.pdb
+psfgen) extracted 103 residues from pdb file
+Info: generating structure...
+psfgen) Info: skipping improper N-C-CA-HN at beginning of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+psfgen) Info: skipping conformation C-N-CA-C at beginning of segment.
+psfgen) Info: skipping conformation C-CA-N-HN at beginning of segment.
+psfgen) Info: skipping bond C-N at end of segment.
+psfgen) Info: skipping improper C-CA-N-O at end of segment.
+psfgen) Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+psfgen) Info: skipping conformation CA-C-N-CA at end of segment.
+psfgen) Info: skipping conformation N-CA-C-O at end of segment.
+psfgen) Info: skipping conformation N-CA-C-N at end of segment.
+segment complete.
+psfgen) reading coordinates from pdb file segD.pdb for segment D
+psfgen) Warning: failed to set coordinate for atom O	 HIS:124	  D
+psfgen) Warning: failed to set coordinate for atom OXT	 HIS:124	  D
+psfgen) applying patch GLUP to 1 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) building segment WCD
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+psfgen) reading residues from pdb file cwD.pdb
+psfgen) extracted 118 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file cwD.pdb for segment WCD
+psfgen) building segment I
+psfgen) reading residues from pdb file pot.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file pot.pdb for segment I
+psfgen) building segment WF
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+psfgen) reading residues from pdb file filtwat.pdb
+psfgen) extracted 3 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file filtwat.pdb for segment WF
+psfgen) Info: guessing coordinates for 4182 atoms (56 non-hydrogen)
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: failed to guess coordinate due to bad angle CD CG HG2
+psfgen) Warning: poorly guessed coordinates for 958 atoms (0 non-hydrogen):
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:55	  A
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:63	  A
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2002	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2002	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2003	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2003	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2009	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2009	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2016	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2016	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2017	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2017	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2022	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2022	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2024	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2024	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2025	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2025	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2033	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2033	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2051	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2051	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2052	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2052	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2060	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2060	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2075	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2075	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2080	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2080	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2112	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2112	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2119	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2119	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2127	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2127	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2130	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2130	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2133	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2133	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2144	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2144	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2150	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2150	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2170	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2170	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2184	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2184	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2207	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2207	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:214	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:214	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:218	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:218	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:221	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:221	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:222	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:222	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:224	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:224	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:231	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:231	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:234	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:234	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:236	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:236	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:243	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:243	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:250	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:250	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:256	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:256	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:259	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:259	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:263	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:263	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:265	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:265	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:276	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:276	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:284	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:284	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:295	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:295	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:308	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:308	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:310	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:310	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:311	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:311	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:314	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:314	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:322	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:322	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:323	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:323	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:342	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:342	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:363	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:363	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:373	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:373	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:389	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:389	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3008	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3008	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3009	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3009	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3010	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3010	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3011	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3011	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3012	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3012	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3013	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3013	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3014	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3014	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3015	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3015	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3016	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3016	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3017	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3017	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3018	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3018	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3019	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3019	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3020	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3020	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3021	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3021	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3022	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3022	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3023	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3023	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3024	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3024	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3025	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3025	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3026	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3026	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3027	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3027	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3028	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3028	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3029	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3029	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3030	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3030	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3031	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3031	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3032	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3032	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3033	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3033	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3034	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3034	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3035	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3035	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3036	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3036	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3037	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3037	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3038	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3038	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3039	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3039	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3040	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3040	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3041	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3041	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3042	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3042	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3043	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3043	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3044	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3044	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3045	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3045	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3046	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3046	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3047	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3047	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3048	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3048	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3049	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3049	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3050	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3050	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3051	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3051	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3052	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3052	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3053	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3053	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3054	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3054	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3055	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3055	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3056	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3056	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3057	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3057	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3058	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3058	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3059	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3059	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3060	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3060	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3061	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3061	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3062	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3062	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3063	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3063	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3064	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3064	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3065	  WCA
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3065	  WCA
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:55	  B
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:63	  B
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2002	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2002	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2003	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2003	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2009	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2009	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2016	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2016	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2017	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2017	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2022	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2022	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2024	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2024	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2025	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2025	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2033	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2033	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2051	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2051	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2052	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2052	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2060	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2060	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2075	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2075	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2080	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2080	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2112	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2112	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2119	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2119	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2127	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2127	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2130	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2130	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2133	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2133	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2144	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2144	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2150	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2150	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2170	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2170	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2184	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2184	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2207	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2207	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:214	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:214	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:218	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:218	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:221	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:221	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:222	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:222	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:224	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:224	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:231	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:231	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:234	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:234	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:236	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:236	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:243	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:243	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:250	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:250	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:256	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:256	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:259	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:259	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:263	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:263	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:265	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:265	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:276	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:276	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:284	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:284	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:295	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:295	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:308	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:308	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:310	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:310	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:311	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:311	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:314	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:314	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:322	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:322	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:323	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:323	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:342	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:342	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:363	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:363	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:373	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:373	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:389	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:389	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3008	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3008	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3009	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3009	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3010	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3010	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3011	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3011	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3012	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3012	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3013	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3013	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3014	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3014	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3015	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3015	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3016	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3016	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3017	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3017	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3018	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3018	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3019	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3019	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3020	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3020	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3021	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3021	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3022	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3022	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3023	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3023	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3024	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3024	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3025	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3025	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3026	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3026	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3027	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3027	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3028	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3028	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3029	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3029	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3030	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3030	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3031	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3031	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3032	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3032	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3033	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3033	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3034	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3034	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3035	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3035	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3036	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3036	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3037	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3037	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3038	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3038	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3039	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3039	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3040	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3040	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3041	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3041	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3042	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3042	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3043	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3043	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3044	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3044	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3045	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3045	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3046	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3046	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3047	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3047	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3048	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3048	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3049	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3049	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3050	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3050	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3051	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3051	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3052	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3052	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3053	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3053	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3054	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3054	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3055	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3055	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3056	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3056	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3057	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3057	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3058	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3058	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3059	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3059	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3060	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3060	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3061	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3061	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3062	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3062	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3063	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3063	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3064	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3064	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3065	  WCB
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3065	  WCB
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:55	  C
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:63	  C
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2002	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2002	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2003	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2003	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2009	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2009	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2016	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2016	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2017	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2017	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2022	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2022	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2024	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2024	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2025	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2025	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2033	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2033	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2051	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2051	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2052	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2052	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2060	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2060	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2075	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2075	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2080	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2080	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2112	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2112	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2119	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2119	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2127	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2127	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2130	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2130	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2133	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2133	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2144	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2144	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2150	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2150	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2170	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2170	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2184	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2184	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2207	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2207	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:214	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:214	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:218	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:218	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:221	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:221	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:222	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:222	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:224	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:224	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:231	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:231	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:234	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:234	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:236	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:236	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:243	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:243	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:250	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:250	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:256	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:256	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:259	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:259	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:263	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:263	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:265	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:265	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:276	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:276	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:284	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:284	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:295	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:295	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:308	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:308	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:310	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:310	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:311	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:311	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:314	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:314	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:322	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:322	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:323	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:323	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:342	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:342	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:363	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:363	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:373	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:373	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:389	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:389	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3008	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3008	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3009	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3009	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3010	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3010	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3011	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3011	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3012	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3012	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3013	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3013	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3014	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3014	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3015	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3015	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3016	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3016	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3017	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3017	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3018	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3018	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3019	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3019	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3020	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3020	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3021	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3021	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3022	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3022	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3023	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3023	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3024	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3024	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3025	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3025	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3026	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3026	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3027	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3027	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3028	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3028	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3029	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3029	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3030	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3030	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3031	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3031	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3032	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3032	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3033	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3033	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3034	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3034	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3035	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3035	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3036	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3036	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3037	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3037	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3038	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3038	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3039	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3039	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3040	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3040	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3041	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3041	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3042	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3042	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3043	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3043	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3044	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3044	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3045	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3045	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3046	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3046	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3047	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3047	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3048	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3048	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3049	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3049	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3050	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3050	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3051	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3051	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3052	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3052	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3053	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3053	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3054	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3054	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3055	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3055	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3056	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3056	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3057	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3057	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3058	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3058	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3059	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3059	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3060	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3060	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3061	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3061	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3062	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3062	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3063	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3063	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3064	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3064	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3065	  WCC
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3065	  WCC
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:55	  D
+psfgen) Warning: poorly guessed coordinate for atom HG2	 PRO:63	  D
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2002	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2002	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2003	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2003	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2009	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2009	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2016	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2016	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2017	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2017	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2022	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2022	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2024	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2024	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2025	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2025	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2033	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2033	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2051	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2051	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2052	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2052	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2060	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2060	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2075	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2075	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2080	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2080	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2112	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2112	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2119	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2119	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2127	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2127	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2130	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2130	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2133	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2133	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2144	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2144	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2150	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2150	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2170	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2170	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2184	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2184	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:2207	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:2207	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:214	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:214	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:218	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:218	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:221	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:221	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:222	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:222	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:224	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:224	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:231	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:231	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:234	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:234	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:236	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:236	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:243	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:243	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:250	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:250	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:256	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:256	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:259	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:259	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:263	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:263	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:265	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:265	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:276	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:276	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:284	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:284	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:295	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:295	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:308	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:308	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:310	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:310	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:311	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:311	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:314	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:314	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:322	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:322	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:323	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:323	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:342	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:342	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:363	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:363	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:373	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:373	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:389	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:389	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3008	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3008	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3009	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3009	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3010	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3010	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3011	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3011	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3012	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3012	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3013	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3013	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3014	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3014	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3015	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3015	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3016	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3016	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3017	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3017	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3018	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3018	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3019	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3019	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3020	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3020	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3021	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3021	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3022	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3022	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3023	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3023	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3024	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3024	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3025	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3025	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3026	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3026	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3027	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3027	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3028	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3028	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3029	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3029	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3030	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3030	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3031	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3031	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3032	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3032	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3033	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3033	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3034	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3034	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3035	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3035	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3036	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3036	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3037	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3037	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3038	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3038	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3039	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3039	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3040	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3040	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3041	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3041	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3042	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3042	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3043	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3043	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3044	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3044	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3045	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3045	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3046	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3046	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3047	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3047	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3048	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3048	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3049	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3049	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3050	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3050	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3051	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3051	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3052	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3052	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3053	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3053	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3054	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3054	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3055	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3055	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3056	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3056	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3057	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3057	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3058	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3058	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3059	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3059	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3060	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3060	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3061	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3061	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3062	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3062	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3063	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3063	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3064	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3064	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3065	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3065	  WCD
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3002	  WF
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3002	  WF
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3004	  WF
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3004	  WF
+psfgen) Warning: poorly guessed coordinate for atom H1	 TIP3:3007	  WF
+psfgen) Warning: poorly guessed coordinate for atom H2	 TIP3:3007	  WF
+psfgen) Info: writing pdb file kcsav.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+psfgen) Info: writing psf file kcsav.psf
+psfgen) total of 7713 atoms
+psfgen) total of 7314 bonds
+psfgen) total of 11951 angles
+psfgen) total of 16756 dihedrals
+psfgen) total of 948 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 404 cross-terms
+psfgen) Info: psf file complete.
+
+
+
+
+
+
+
+
+
+
+
+
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.
+vmd > 
